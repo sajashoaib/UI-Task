@@ -1,0 +1,82 @@
+.social-div {
+    background-color: rgba(37, 34, 40, 0.7);
+    font-family: Roboto;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+
+.social-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.social-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-name {
+
+    font-size: 24px;
+    color: #FFFCCC;
+}
+
+.social-logo img {
+    width: 79px;
+    height: 75px;
+}
+
+.social-one p {
+    font-size: 16px;
+    padding: 20px 0;
+
+}
+
+.social-icon img {
+    padding: 0px 10px;
+}
+
+.social-two p {
+    font-size: 20px;
+}
+
+.social-two ul {
+    color: #FFF;
+    padding: 10px 0;
+
+}
+
+.social-two ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactus p {
+    font-size: 20px;
+}
+
+.contact1 p {
+    font-size: 16px;
+}
+
+.contactus-content {
+    padding: 10px;
+}
+
+.contactus-content .contact1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 6px;
+}

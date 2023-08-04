@@ -1,0 +1,53 @@
+.blog-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+    padding: 40px 0;
+    font-family: Roboto;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.blog1 {
+    background-color: rgba(37, 34, 40, 0.7);
+
+}
+
+.blog1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog1 .detail {
+    padding: 20px;
+}
+
+.header-foodblog {
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.blog1 .detail p {
+
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0 25px 0;
+
+}
+
+.blog1 .blog-readmore {
+    width: 100px;
+    height: 44px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFCC;
+    color: #eaeaea;
+    font-size: 16px;
+    text-align: left;
+}

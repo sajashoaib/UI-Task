@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Offers from './components/Offers';
+import AboutUsPage from './pages/AboutUsPage';
+import BlogsPage from './pages/BlogsPage';
+import CookingPage from './pages/CookingPage';
+import FooterPage from './pages/FooterPage';
+import LandingPage from './pages/LandingPage';
+import MenuaPage from './pages/MenuaPage';
+import NumbersPage from './pages/NumbersPage';
+import ReviewePage from './pages/ReviewePage';
+import SocialMediaPage from './pages/SocialMediaPage';
+import SpecialPage from './pages/SpecialPage';
+import SubscribePage from './pages/SubscribePage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage/>
+      <AboutUsPage/>
+      <SpecialPage/>
+      <MenuaPage/>
+      <Offers/>
+      <CookingPage/>
+      <NumbersPage/>
+      <ReviewePage/>
+      <BlogsPage/>
+      <SocialMediaPage/>
+      <SubscribePage/>
+      <FooterPage/>
     </div>
   );
 }

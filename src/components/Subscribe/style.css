@@ -1,0 +1,45 @@
+.subscribe-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    font-family: Roboto;
+
+}
+
+.mailsubscribe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.mailsubscribe p {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+input {
+    width: 350px;
+    height: 52px;
+    background-color: transparent;
+    border: 1px solid #FFFFCC;
+    margin-right: 20px;
+
+}
+
+input::placeholder {
+    padding: 10px;
+}
+
+.subscribe {
+    padding: 15px 80px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #FFFFCC;
+    font-size: 18px;
+    font-weight: 200;
+
+}

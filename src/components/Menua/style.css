@@ -1,0 +1,72 @@
+.Menua-word {
+    font-family: Dancing Script;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFCE6D;
+    text-align: center;
+}
+
+.Menua-header {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.names {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+.desc-food {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+span {
+    color: #FFCE6D;
+
+}
+
+.menua-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+.menu-item-left,
+.menu-item-right {
+    width: 40%;
+}
+
+.menua-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.menu-item img {
+    width: 80px;
+}
+
+.foodnames {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    flex: 1;
+}

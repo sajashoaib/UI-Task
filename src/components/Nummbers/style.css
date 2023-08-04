@@ -1,0 +1,50 @@
+.number-section {
+    background-color: rgba(37, 34, 40, 0.7);
+    padding: 20px 0;
+}
+
+.number-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.number1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.number1 img {
+
+    width: 80px;
+    height: 80px;
+
+}
+
+.number {
+    color: aliceblue;
+}
+
+.number :nth-child(1) {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFCE6D;
+}
+
+.number :nth-child(2) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFC;
+}

@@ -1,0 +1,41 @@
+.reviewee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+.reviewee1 {
+    padding: 30px 40px;
+    background-color: rgba(37, 34, 40, 0.7);
+}
+
+.person {
+    color: aliceblue;
+    width: 400px;
+    margin: 5% auto;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-align: left;
+}
+
+.img-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px
+}
+
+.img-name .star-img {
+    width: 70%;
+}
+
+.person img {
+    width: 20%;
+    height: 20%;
+}

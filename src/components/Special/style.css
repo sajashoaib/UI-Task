@@ -1,0 +1,57 @@
+.special-container {
+    background-color: rgba(37, 34, 40, 0.7);
+    font-weight: 700;
+    font-family: Roboto;
+}
+
+.special-word {
+    font-family: Dancing Script;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFCE6D;
+    text-align: center;
+}
+
+.special-header {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.specail-food {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.specialdiv {
+    width: 26%;
+    padding: 30px 30px;
+    background-color: rgb(160, 128, 64, 0.3);
+    border: 1px dashed #FFCE6D;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.fresh {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    letter-spacing: 0.13em;
+    text-align: left;
+    color: #FFFFFC;
+
+}
+
+.food-img {
+    width: 80px;
+}
